@@ -1,5 +1,7 @@
 body{
-    font-family: 'Pirata One', cursive;
+    margin: 0%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 h1{
     font-size: 50px;
@@ -15,4 +17,21 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png)
+}
+section{
+    height: 500px;
+}
+.top-banner{
+    background-repeat: no-repeat;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: 700;
+    color: white;
 }
